@@ -3,14 +3,14 @@ import './App.css'
 
 function App() {
   return (
-    <div>
-    <h1 className="text-3xl font-bold font-display text-center pt-10">
-    Password Generator
-    </h1>
-    <div className='flex flex-col justify-center h-screen gap-6 w-full max-w-md px-4 mx-auto'>
-    <p className='text-base'>Password Generator crea contraseñas personalizadas y seguras al instante, 
+    <div className='flex flex-col gap-1 justify-center h-screen w-full max-w-md mx-auto text-blue-950'>
+      <h1 className="text-4xl font-bold font-display text-center text-blue-500">
+      Password Generator
+      </h1>
+    <div className='gap-2'>
+    <p className='text-xl font-bold text-center'>Crea contraseñas personalizadas y seguras al instante, 
     con opciones para incluir mayúsculas, minúsculas, números y caracteres especiales. </p>
-    <br/><p className='text-center'>¡Genera y copia contraseñas 
+    <br/><p className='text-base text-center pb-4'>¡Genera y copia contraseñas 
     fuertes con un solo clic!</p>
         <PasswordGenerator></PasswordGenerator>
     </div>
