@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   return (
-    <div className='flex flex-col gap-1 justify-center h-screen w-full max-w-md mx-auto text-blue-950'>
+    <div className='flex flex-col gap-1 justify-center container h-screen max-w-md px-2 mx-auto text-blue-950'>  
       <h1 className="text-4xl font-bold font-display text-center text-blue-500">
       Password Generator
       </h1>
